@@ -6,13 +6,13 @@ export default function ConferenceDescription() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-800 border-b-4 border-blue-600 inline-block pb-2">
-            About ICACS 2025
+            About ICACS 2026
           </h2>
         </div>
         <div className="max-w-4xl mx-auto">
           <p className="text-justify text-gray-700 mb-4 leading-relaxed">
             The International Conference on Artificial Intelligence,
-            Communication Technologies &amp; Smart Cities (ICACS 2025) is a
+            Communication Technologies &amp; Smart Cities (ICACS 2026) is a
             multidisciplinary platform which brings together academicians,
             industry leaders, researchers, technocrats, and experts belonging to
             various disciplines of Engineering. The conference provides an
@@ -22,7 +22,7 @@ export default function ConferenceDescription() {
             international peers.
           </p>
           <p className="text-justify text-gray-700 mb-6 leading-relaxed">
-            The ICACS 2025 will help in fostering connections on a global scale
+            The ICACS 2026 will help in fostering connections on a global scale
             between the participants drawn from various countries leading to
             networking between them.
           </p>
