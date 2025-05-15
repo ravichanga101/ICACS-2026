@@ -20,7 +20,7 @@ export default function Hero() {
       id="hero"
       className="relative bg-cover bg-center h-[88vh] overflow-hidden"
       style={{
-        backgroundImage: "url('/assets/img/slider/TheCampus.jpg')",
+        backgroundImage: "url('/assets/img/banner-bg.webp')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
@@ -62,23 +62,23 @@ export default function Hero() {
 
             <div className="mt-6 flex flex-wrap gap-3 md:gap-4 justify-center animate-fadeIn animation-delay-500">
               <a
-                href="#registration"
-                className="bg-[#fd7e14] hover:bg-[#e67211] text-white font-medium py-2 px-5 md:px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 text-sm md:text-base"
-              >
-                Register Now
-              </a>
-              <a
                 href="#cfp"
                 className="bg-[#1869b4] hover:bg-[#145a96] text-white font-medium py-2 px-5 md:px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 text-sm md:text-base"
               >
                 Submit Paper
               </a>
+              {/*
+              <a
+                href="#registration"
+                className="bg-[#fd7e14] hover:bg-[#e67211] text-white font-medium py-2 px-5 md:px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 text-sm md:text-base"
+              >
+                Register Now
+              </a>
+              */}
             </div>
           </div>
         </div>
       </div>
-
-      
     </section>
   );
 }

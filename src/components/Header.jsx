@@ -113,17 +113,13 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center py-2">
-          <div className="h-12 w-12 bg-[#1869b4] rounded-full flex items-center justify-center mr-3">
-            <span className="text-white font-bold text-xl">IC</span>
-          </div>
-          <div className="flex flex-col">
-            <span className="text-[#1869b4] font-bold text-xl leading-tight">
-              ICACS
-            </span>
-            <span className="text-[#fd7e14] text-xs font-medium">
-              April 10-12, 2025
-            </span>
-          </div>
+          <Image
+            src="/assets/img/ICACS-logo.png"
+            alt="ICACS Logo"
+            className="h-12 w-12 mr-3"
+            width={120}
+            height={120}
+          />
         </Link>
 
         {/* Desktop Menu */}
@@ -131,9 +127,9 @@ export default function Header() {
           {/* About Dropdown */}
           <DesktopDropdown title="About" links={navigationData.aboutLinks} />
 
-          {/* ICACS 2025 Dropdown */}
+          {/* ICACS 2026 Dropdown */}
           <DesktopDropdown
-            title="ICACS 2025"
+            title="ICACS 2026"
             links={navigationData.icacsLinks}
           />
 
@@ -190,9 +186,9 @@ export default function Header() {
                 links={navigationData.aboutLinks}
               />
 
-              {/* ICACS 2025 Section */}
+              {/* ICACS 2026 Section */}
               <MobileMenuSection
-                title="ICACS 2025"
+                title="ICACS 2026"
                 links={navigationData.icacsLinks}
               />
 

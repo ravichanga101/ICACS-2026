@@ -21,13 +21,13 @@ const SubmissionGuidelines = () => {
             </p>
 
             <p className="mb-4">
-              The organizers of ICACS 2025 regard plagiarism as serious
+              The organizers of ICACS 2026 regard plagiarism as serious
               professional misconduct. All submissions will be screened for
               plagiarism and when identiﬁed, the submissions will be rejected.
             </p>
 
             <p className="mb-4">
-              The ICACS 2025 doesn't encourage withdrawals after the paper is
+              The ICACS 2026 doesn't encourage withdrawals after the paper is
               accepted.
             </p>
 
