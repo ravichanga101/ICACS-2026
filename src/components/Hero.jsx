@@ -46,7 +46,7 @@ export default function Hero() {
               </span>
               <span className="block mt-2 text-[#fd7e14] animate-slideUp animation-delay-200">
                 Artificial Intelligence, Communication Technologies & Smart
-                Cities
+                Cities (Hybrid)
               </span>
             </h1>
 
