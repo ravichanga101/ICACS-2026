@@ -119,18 +119,17 @@ export default function OrganizingCommittee() {
                 <div className="p-4 flex flex-col items-center">
                   <div className="w-40 h-40 relative mb-4">
                     <img
-                      src="/assets/img/orgcmt/dr_chirag-patel.png"
-                      alt="Dr. Chirag Patel"
+                      src="/assets/img/orgcmt/dweepna.png"
+                      alt="Dr. Dweepna Garg"
                       className="w-full h-full object-cover object-center"
                     />
                   </div>
                   <div className="text-center">
                     <h4 className="text-lg font-semibold text-gray-800 mb-1">
-                      Dr. Chirag Patel
+                      Dr. Dweepna Garg
                     </h4>
                     <p className="text-gray-600">
-                      Associate Professor and Head, Computer Science and
-                      Engineering Department, DEPSTAR, CHARUSAT, Gujarat, India
+                      Assistant Professor and Head, Department of Information Technology, DEPSTAR, CHARUSAT, Gujarat, India
                     </p>
                   </div>
                 </div>
