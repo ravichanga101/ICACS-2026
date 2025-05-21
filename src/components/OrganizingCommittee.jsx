@@ -203,6 +203,106 @@ export default function OrganizingCommittee() {
                   </div>
                 </div>
               </div>
+
+              <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+                <div className="p-4 flex flex-col items-center">
+                  <div className="w-32 h-32 relative mb-3">
+                    <img
+                      src="/assets/img/icacs-coordinators-imgs/Upesh.webp"
+                      alt="Dr. Upesh Patel"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                      Dr. Upesh Patel
+                    </h4>
+                    <p className="text-gray-600 text-sm">
+                      Associate Professor and Head, Department of Electronics & Communication Engineering, CSPIT, CHARUSAT, India
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+                <div className="p-4 flex flex-col items-center">
+                  <div className="w-32 h-32 relative mb-3">
+                    <img
+                      src="/assets/img/icacs-coordinators-imgs/NiravBhatt.webp"
+                      alt="Dr. Nirav Bhatt"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                      Dr. Nirav Bhatt
+                    </h4>
+                    <p className="text-gray-600 text-sm">
+                      Associate Professor and Head, Department of AI & ML Engineering, CSPIT, CHARUSAT, India
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+                <div className="p-4 flex flex-col items-center">
+                  <div className="w-32 h-32 relative mb-3">
+                    <img
+                      src="/assets/img/icacs-coordinators-imgs/nikita_bhatt.jfif"
+                      alt="Dr. Nikita Bhatt"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                      Dr. Nikita Bhatt
+                    </h4>
+                    <p className="text-gray-600 text-sm">
+                      Assistant Professor and Head, Department of Computer Engineering, CSPIT, CHARUSAT, India
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+                <div className="p-4 flex flex-col items-center">
+                  <div className="w-32 h-32 relative mb-3">
+                    <img
+                      src="/assets/img/icacs-coordinators-imgs/chirag_patel.jpg"
+                      alt="Dr. Chirag Patel"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                      Dr. Chirag Patel
+                    </h4>
+                    <p className="text-gray-600 text-sm">
+                      Associate Professor and Head, Computer Science and Engineering Department, DEPSTAR, CHARUSAT, Gujarat, India
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+                <div className="p-4 flex flex-col items-center">
+                  <div className="w-32 h-32 relative mb-3">
+                    <img
+                      src="/assets/img/icacs-coordinators-imgs/amit_nayak.png"
+                      alt="Dr. Amit Nayak"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                      Dr. Amit Nayak
+                    </h4>
+                    <p className="text-gray-600 text-sm">
+                     Associate Professor and Head, Department of Information Technology, DEPSTAR, CHARUSAT, India
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 

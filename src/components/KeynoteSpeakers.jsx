@@ -176,6 +176,81 @@ export default function KeynoteSpeakers() {
                 </div>
               </div>
             </div>
+
+            {/* Speaker 7 */}
+            <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+              <div className="p-0">
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-64 relative">
+                    <img
+                      src="/assets/img/keynote/Tom V Mathew.jpeg"
+                      alt="Dr. Tom V. Mathew"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="p-4 text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                      Dr. Tom V. Mathew
+                    </h4>
+                    <p className="text-gray-600">
+                      Professor, Department of Civil Engineering, Indian Institute of Technology Bombay
+                      <br />
+                      &nbsp;
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Speaker 8 */}
+            <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+              <div className="p-0">
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-64 relative">
+                    <img
+                      src="/assets/img/keynote/U V Vala.jpg"
+                      alt="Mr. Urvesh Vala"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="p-4 text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                      Mr. Urvesh Vala
+                    </h4>
+                    <p className="text-gray-600">
+                     Head of Material Engineering Technology at L&T Energy Hydrocarbon Engineering Ltd, Vadodara
+                      <br />
+                      &nbsp;
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Speaker 9 */}
+            <div className="bg-white rounded-md overflow-hidden shadow-md border-b-4 border-[#1869b4]">
+              <div className="p-0">
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-64 relative">
+                    <img
+                      src="/assets/img/keynote/Prof.Mohammad Shafi Mir.png"
+                      alt="Prof.Mohammad Shafi Mir"
+                      className="w-full h-full object-cover object-center"
+                    />
+                  </div>
+                  <div className="p-4 text-center">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-1">
+                     Prof.Mohammad Shafi Mir
+                    </h4>
+                    <p className="text-gray-600">
+                      Professor, Department of Civil Engineering, National Institute of Technology, Srinagar
+                      <br />
+                      &nbsp;
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
