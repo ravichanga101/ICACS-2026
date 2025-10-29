@@ -24,8 +24,7 @@ const navigationData = {
     { href: "#orgcmt", text: "Organizing Committee" },
     // { href: "#advcmt", text: "Advisory Committee" },
     {
-      href: "#technical-program-committee",
-      text: "Technical Program Committee",
+      href: "#technical-program-committee", text: "Technical Program Committee",
     },
     { href: "#technical-review-committee", text: "Technical Review Committee" },
   ],
