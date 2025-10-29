@@ -11,7 +11,7 @@ const keynotes = [
     name: "Mr. Urvesh Vala",
     affiliation:
       "Head of Material Engineering Technology, L&T Energy Hydrocarbon Engineering Ltd., Vadodara",
-    image: "/assets/img/keynote/UVVala.png",
+    image: "/assets/img/keynote/UrveshVala.png",
   },
   {
     session: 2,

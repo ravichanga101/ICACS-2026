@@ -7,9 +7,9 @@ import { Menu, X, ChevronDown } from "lucide-react";
 // Navigation data structure for better maintainability
 const navigationData = {
   aboutLinks: [
-    { href: "#abtcharusat", text: "CHARUSAT" },
-    { href: "#abtcspit", text: "CSPIT" },
-    { href: "#abtdepstar", text: "DEPSTAR" },
+    { href: "https://charusat.ac.in/", text: "CHARUSAT" },
+    { href: "https://cspit.charusat.ac.in/", text: "CSPIT" },
+    { href: "https://depstar.charusat.ac.in/", text: "DEPSTAR" },
   ],
   icacsLinks: [
     { href: "#about", text: "About Conference" },

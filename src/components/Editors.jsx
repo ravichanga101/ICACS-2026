@@ -12,7 +12,7 @@ export default function Editors() {
     {
       name: "Dr. Trushit Upadhyaya",
       affiliation: "Charotar University of Science and Technology (CHARUSAT), Changa, Gujarat, India",
-      image: "/assets/img/editors/TKU2.jpg"
+      image: "/assets/img/orgcmt/TrushitUpadhyaya.png"
     },
     {
       name: "Dr. Merih Palandoken",

@@ -16,11 +16,13 @@ export default function OrganizingCommittee() {
     }
   ];
 
-  const patron = {
-    name: "Dr. Atul M. Patel",
-    affiliation: "Provost, CHARUSAT, Gujarat, India",
-    image: "/assets/img/orgcmt/AtulPatel.png"
-  };
+  const patrons = [
+    {
+      name: "Dr. Atul M. Patel",
+      affiliation: "Provost, CHARUSAT, Gujarat, India",
+      image: "/assets/img/orgcmt/AtulPatel.png"
+    }
+  ];
 
   const conveners = [
     {
@@ -31,12 +33,12 @@ export default function OrganizingCommittee() {
     {
       name: "Dr. Trushit Upadhyaya",
       affiliation: "Principal, CSPIT, CHARUSAT, Gujarat, India",
-      image: "/assets/img/orgcmt/TKU2.jpg"
+      image: "/assets/img/orgcmt/TrushitUpadhyaya.png"
     },
     {
       name: "Dr. Bankim Patel",
       affiliation: "Principal, DEPSTAR, CHARUSAT, Gujarat, India",
-      image: "/assets/img/orgcmt/BankimSir.jpg"
+      image: "/assets/img/orgcmt/BankimPatel.png"
     }
   ];
 
@@ -86,12 +88,12 @@ export default function OrganizingCommittee() {
     },
     {
       name: "Dr. Chirag Patel",
-      affiliation: "Associate Professor and Head, Computer Science and Engineering Department, DEPSTAR, CHARUSAT, Gujarat, India",
+      affiliation: "Associate Professor and Head, Computer Engineering Department, DEPSTAR, CHARUSAT, Gujarat, India",
       image: "/assets/img/icacs-coordinators-imgs/ChiragPatel.png"
     },
     {
       name: "Dr. Amit Nayak",
-      affiliation: "Associate Professor and Head, Department of Information Technology, DEPSTAR, CHARUSAT, India",
+      affiliation: "Associate Professor and Head, Computer Science and Engineering Department, DEPSTAR, CHARUSAT, India",
       image: "/assets/img/icacs-coordinators-imgs/AmitNayak.png"
     }
   ];
@@ -147,6 +149,15 @@ export default function OrganizingCommittee() {
           {/* Patron */}
           <div className="mb-10">
             <h3 className="text-xl font-bold text-center text-white bg-blue-600 p-2 mb-6 rounded">
+              Patrons
+            </h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              {patrons.map((member, index) => renderMemberCard(member, index))}
+            </div>
+          </div>
+
+          {/* <div className="mb-10">
+            <h3 className="text-xl font-bold text-center text-white bg-blue-600 p-2 mb-6 rounded">
               Patron
             </h3>
             <div className="flex justify-center">
@@ -173,7 +184,7 @@ export default function OrganizingCommittee() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Conveners Section */}
           <div className="mb-10">
@@ -190,7 +201,7 @@ export default function OrganizingCommittee() {
             <h3 className="text-xl font-bold text-center text-white bg-blue-600 p-2 mb-6 rounded">
               Co-Conveners
             </h3>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-3 gap-6">
               {coConveners.map((member, index) => renderMemberCard(member, index))}
             </div>
           </div>
@@ -205,14 +216,14 @@ export default function OrganizingCommittee() {
             </div>
           </div>
 
-          <div className="mt-8 text-center">
+          {/* <div className="mt-8 text-center">
             <a
               href="#"
               className="inline-block bg-blue-600 text-white font-medium py-2 px-6 rounded transition hover:bg-blue-700 shadow-md"
             >
               View All Committee Members
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

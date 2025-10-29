@@ -90,7 +90,7 @@ export default function ContactUs() {
               <p className="text-gray-600">
                 Dr. V. R. Panchal: 02692-265081
                 <br />
-                Dr. Chirag Patel: 02692-265299
+                Dr. Dweepna Garg: 02692-265299
               </p>
             </div>
 
