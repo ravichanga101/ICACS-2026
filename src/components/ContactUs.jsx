@@ -25,11 +25,11 @@ export default function ContactUs() {
 
             <div className="text-center space-y-3">
               <span className="font-bold text-lg block">
-                Dr. Chirag Patel (Co-Convener, ICACS 2026)
+                Dr. Dweepna Garg (Co-Convener, ICACS 2026)
               </span>
               <span className="block">
-                Associate Professor and Head, Department of Computer Science and
-                Engineering, DEPSTAR, CHARUSAT, Gujarat, India.
+                Assistant Professor and Head, Department of Information Technology,
+                DEPSTAR, CHARUSAT, Gujarat, India.
               </span>
               <span className="block">Office No.: 02692-265299</span>
             </div>
