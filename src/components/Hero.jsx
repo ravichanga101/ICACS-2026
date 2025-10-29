@@ -51,7 +51,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg md:text-xl font-semibold mt-4 text-gray-800 animate-slideUp animation-delay-300">
-              March 1, 2026 | CHARUSAT, India
+              March 3-4, 2026 | CHARUSAT, India
             </p>
 
             <p className="mt-4 text-gray-700 text-base animate-fadeIn animation-delay-400">

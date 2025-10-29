@@ -48,7 +48,7 @@ export default function ImportantDates() {
                     Conference Date
                   </td>
                   <td className="border px-4 py-3 text-gray-800">
-                    March 1, 2026
+                    March 3-4, 2026
                   </td>
                 </tr>
               </tbody>
