@@ -107,7 +107,7 @@ export default function ConferenceDescription() {
                     <p className="text-gray-700 leading-relaxed text-sm">
                       {highlight.description}
                     </p>
-                    {highlight.link && (
+                    {/* {highlight.link && (
                       <a
                         href={highlight.link.url}
                         target="_blank"
@@ -119,7 +119,7 @@ export default function ConferenceDescription() {
                         </svg>
                         {highlight.link.text}
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </div>
               ))}
