@@ -71,7 +71,7 @@ export default function KeynoteSpeakers() {
           </h2>
         </div>
 
-        <div className="flex justify-center mb-8">
+        {/* <div className="flex justify-center mb-8">
           <Link
             href="/assets/files/Keynote_Speech_Schedule_2025.pdf"
             target="_blank"
@@ -79,9 +79,9 @@ export default function KeynoteSpeakers() {
           >
             Keynote Speech Schedule
           </Link>
-        </div>
+        </div> */}
 
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {keynotes.map((k) => (
               <div
@@ -101,7 +101,7 @@ export default function KeynoteSpeakers() {
                   </div>
                   <div className="text-center">
                     <p className="text-sm font-semibold text-blue-700 mb-2">
-                      Session {k.session} Keynote Speech:
+                      Session {k.session} Keynote Speech
                       <span className="block font-normal text-gray-700">{k.title}</span>
                     </p>
                     <h4 className="text-lg font-semibold text-gray-800 mb-2">

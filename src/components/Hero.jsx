@@ -40,13 +40,12 @@ export default function Hero() {
         >
           <div className="bg-white/80 backdrop-blur-sm py-6 md:py-8 px-4 md:px-6 rounded-lg shadow-2xl border border-white/20 transition-all duration-500 hover:shadow-blue-500/10 animate-fadeIn">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1869b4] leading-tight transition-all duration-300">
-              <span className="block mb-2 animate-slideUp">ICACS 2026</span>
+              <span className="block mb-2 animate-slideUp">CHAiCET 2026</span>
               <span className="block text-xl md:text-2xl lg:text-3xl text-gray-800 animate-slideUp animation-delay-100">
-                International Conference on
+                CHARUSAT International Conference on
               </span>
               <span className="block mt-2 text-[#fd7e14] animate-slideUp animation-delay-200">
-                Artificial Intelligence, Communication Technologies & Smart
-                Cities (Hybrid)
+                Engineering & Technology (Hybrid)
               </span>
             </h1>
 
@@ -56,26 +55,26 @@ export default function Hero() {
 
             <p className="mt-4 text-gray-700 text-base animate-fadeIn animation-delay-400">
               Bringing together researchers, practitioners, and industry experts
-              to discuss the latest advancements in artificial intelligence,
-              communication technologies, and smart city solutions.
+              to discuss the latest advancements in engineering and technology domains
+              across multiple disciplines.
             </p>
 
-            <div className="mt-6 flex flex-wrap gap-3 md:gap-4 justify-center animate-fadeIn animation-delay-500">
+            {/* <div className="mt-6 flex flex-wrap gap-3 md:gap-4 justify-center animate-fadeIn animation-delay-500">
               <a
                 href="#cfp"
                 className="bg-[#1869b4] hover:bg-[#145a96] text-white font-medium py-2 px-5 md:px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 text-sm md:text-base"
               >
                 Submit Paper
               </a>
-              {/*
+              {
               <a
                 href="#registration"
                 className="bg-[#fd7e14] hover:bg-[#e67211] text-white font-medium py-2 px-5 md:px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1 text-sm md:text-base"
               >
                 Register Now
               </a>
-              */}
-            </div>
+              }
+            </div> */}
           </div>
         </div>
       </div>

@@ -8,7 +8,9 @@ import KeynoteSpeakers from '../components/KeynoteSpeakers';
 import Editors from '../components/Editors';
 import TechnicalProgramCommittee from '../components/TechnicalProgramCommittee';
 import TechnicalReviewCommittee from '../components/TechnicalReviewCommittee';
+import AdvisoryCommittee from '../components/AdvisoryCommittee';
 import OrganizingCommittee from '../components/OrganizingCommittee';
+import SDG from '../components/SDG';
 import ContactUs from '../components/ContactUs';
 import ConferenceDescription from '../components/ConferenceDescription';
 
@@ -27,6 +29,8 @@ export default function Home() {
       <OrganizingCommittee />      
       <TechnicalProgramCommittee />
       <TechnicalReviewCommittee />
+      <AdvisoryCommittee />
+      <SDG />
       <ContactUs />
     </>
   );
