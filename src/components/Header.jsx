@@ -7,9 +7,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 // Navigation data structure for better maintainability
 const navigationData = {
   aboutLinks: [
-    { href: "https://charusat.ac.in/", text: "CHARUSAT" },
-    { href: "https://cspit.charusat.ac.in/", text: "CSPIT" },
-    { href: "https://depstar.charusat.ac.in/", text: "DEPSTAR" },
+    { href: "https://charusat.ac.in/", text: "CHARUSAT", target: "_blank" }
   ],
   icacsLinks: [
     { href: "#about", text: "About Conference" },
@@ -17,15 +15,13 @@ const navigationData = {
     { href: "#cfp", text: "Call For Papers" },
     { href: "#tracks", text: "Conference Tracks" },
     { href: "#submission-guidelines", text: "Paper Submission Guidelines" },
-    { href: "#schedule", text: "Conference Schedule", target: "_blank" },
-    { href: "#registration", text: "Registration" },
+    // { href: "#schedule", text: "Conference Schedule", target: "_blank" },
+    // { href: "#registration", text: "Registration" },
   ],
   committeeLinks: [
     { href: "#orgcmt", text: "Organizing Committee" },
-    // { href: "#advcmt", text: "Advisory Committee" },
-    {
-      href: "#technical-program-committee", text: "Technical Program Committee",
-    },
+    { href: "#advisory-committee", text: "Advisory Committee" },
+    { href: "#technical-program-committee", text: "Technical Program Committee"},
     { href: "#technical-review-committee", text: "Technical Review Committee" },
   ],
 };
@@ -116,22 +112,23 @@ export default function Header() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center py-2">
           <Image
-            src="/assets/img/ICACS-logo.png"
-            alt="ICACS Logo"
-            className="h-12 w-12 mr-3"
+            src="/assets/img/chaicet.png"
+            alt="CHAiCET Logo"
+            className="h-12 w-100 mr-3"
             width={120}
             height={120}
           />
         </Link>
+
 
         {/* Desktop Menu */}
         <nav className="hidden lg:flex items-center space-x-1">
           {/* About Dropdown */}
           <DesktopDropdown title="About" links={navigationData.aboutLinks} />
 
-          {/* ICACS 2026 Dropdown */}
+          {/* CHAiCET 2026 Dropdown */}
           <DesktopDropdown
-            title="ICACS 2026"
+            title="CHAiCET 2026"
             links={navigationData.icacsLinks}
           />
 
@@ -188,9 +185,9 @@ export default function Header() {
                 links={navigationData.aboutLinks}
               />
 
-              {/* ICACS 2026 Section */}
+              {/* CHAiCET 2026 Section */}
               <MobileMenuSection
-                title="ICACS 2026"
+                title="CHAiCET 2026"
                 links={navigationData.icacsLinks}
               />
 

@@ -71,7 +71,7 @@ export default function TechnicalProgramCommittee() {
   ];
 
   return (
-    <section id="technical-program-committee" className="py-12 bg-white">
+    <section id="technical-program-committee" className="py-12 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-800 border-b-4 border-blue-600 inline-block pb-2">

@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "ICACS 2026 - International Conference on AI, Communication Technologies & Smart Cities",
-  description: "International Conference on Artificial Intelligence, Communication Technologies & Smart Cities - 2026",
+  title: "CHAiCET 2026 - CHARUSAT International Conference on Engineering and Technology",
+  description: "CHARUSAT IInternational Conference on Engineering and Technology - 2026",
 };
 
 export default function RootLayout({ children }) {

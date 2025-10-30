@@ -3,10 +3,10 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 py-6 mt-12">
+    <footer className="bg-gray-100 py-6">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         <p className="text-sm text-gray-600">
-          © Copyright 2024-25 CHARUSAT – All rights reserved.
+          © Copyright 2025-26 CHARUSAT – All rights reserved.
         </p>
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a

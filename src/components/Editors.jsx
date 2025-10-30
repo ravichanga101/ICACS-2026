@@ -7,7 +7,7 @@ export default function Editors() {
     {
       name: "Dr. Mufti Mahmud",
       affiliation: "Department of Computer Science, Nottingham Trent University, Nottingham NG1 4FQ, United Kingdom",
-      image: "/assets/img/editors/dr-mufti-sir.jpeg"
+      image: "/assets/img/editors/MuftiMahmud.png"
     },
     {
       name: "Dr. Trushit Upadhyaya",
@@ -17,7 +17,7 @@ export default function Editors() {
     {
       name: "Dr. Merih Palandoken",
       affiliation: "Izmir Katip Celebi University, Izmir, Turkey",
-      image: "/assets/img/editors/dr-mehri-sir.jpeg"
+      image: "/assets/img/editors/MerihPalandoken.png"
     }
   ];
 
@@ -30,7 +30,7 @@ export default function Editors() {
           </h2>
         </div>
 
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-6">
             {editors.map((editor, index) => (
               <div
