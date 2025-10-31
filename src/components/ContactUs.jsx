@@ -59,7 +59,7 @@ export default function ContactUs() {
 
           {/* Email Highlight */}
           <div className="flex justify-center mb-6">
-            <div className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-bold shadow-lg hover:bg-blue-700 transition-colors">
+            <div className="inline-flex items-center text-blue-600 px-6 py-3 font-bold text-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-2"

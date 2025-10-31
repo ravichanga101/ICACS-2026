@@ -6,67 +6,197 @@ export default function TechnicalProgramCommittee() {
       srNo: 1,
       name: "Aynur Unal",
       affiliation: "Stanford University",
-      country: "USA"
+      country: "USA",
+      email: "aynurunal@stanfordalumni.org"
     },
     {
       srNo: 2,
       name: "Nobert Jere",
-      affiliation: "Namibia University of Science And Technology",
-      country: "Namibia"
+      affiliation: "Walter Sisulu University",
+      country: "South Africa",
+      email: "njere@wsu.ac.za"
     },
     {
       srNo: 3,
       name: "Malaya Nayak",
       affiliation: "It Buzz Ltd.",
-      country: "UK"
+      country: "UK",
+      email: "Info@malaya.me.uk"
     },
     {
       srNo: 4,
       name: "Milan Tuba",
       affiliation: "Sinergija University",
-      country: "Serbia"
+      country: "Serbia",
+      email: "mtuba@singidunum.ac.rs"
     },
     {
       srNo: 5,
       name: "Eugene Yu-Dong Zhang",
       affiliation: "University of Leicester",
-      country: "United Kingdom"
+      country: "United Kingdom",
+      email: "yudong.zhang@le.ac.uk"
     },
     {
       srNo: 6,
       name: "Simon James Fong",
       affiliation: "University of Macau",
-      country: "Macau"
+      country: "Macau",
+      email: "ccfong@um.edu.mo"
     },
     {
       srNo: 7,
       name: "Moisés Toapanta",
-      affiliation: "Management of Technologies for the World \"GTM\"",
-      country: "Ecuador"
+      affiliation: "Salesian Polytechnic University (UPS)",
+      country: "Ecuador",
+      email: "stoapanta@ups.edu.ec"
     },
     {
       srNo: 8,
       name: "Dalia Magdi",
       affiliation: "Canadian International College",
-      country: "Egypt"
+      country: "Egypt",
+      email: "dalia_a_magdi@cic-cairo.com"
     },
     {
       srNo: 9,
       name: "Catarina Pinto Moreira",
       affiliation: "Queensland University of Technology",
-      country: "Australia"
+      country: "Australia",
+      email: "catarina.pintomoreira@qut.edu.au"
     },
     {
       srNo: 10,
       name: "Dharm Singh",
       affiliation: "NUST, WINDHOEK",
-      country: "Namibia"
+      country: "Namibia",
+      email: "dsingh@nust.na"
     },
     {
       srNo: 11,
       name: "Thittaporn Ganokratanaa",
       affiliation: "King Mongkut's University Of Technology Thonburi",
-      country: "Thailand"
+      country: "Thailand",
+      email: "thittaporn.gan@kmutt.ac.th"
+    },
+    {
+      srNo: 12,
+      name: "Ajay Sidpara",
+      affiliation: "Indian Institute of Technology, Kharagpur",
+      country: "India",
+      email: "ajaymsidpara@mech.iitkgp.ac.in"
+    },
+    {
+      srNo: 13,
+      name: "Ashok Kherodia",
+      affiliation: "Indian Institute of Information Technology, Kota",
+      country: "India",
+      email: "ashok.ece@iiitkota.ac.in"
+    },
+    {
+      srNo: 14,
+      name: "Barnali Chetia",
+      affiliation: "Indian Institute of Information Technology, Vadodara",
+      country: "India",
+      email: "barnali@iiitvadodara.ac.in"
+    },
+    {
+      srNo: 15,
+      name: "Dilip A. Patel",
+      affiliation: "Sardar Vallabhbhai National Institute of Technology, Surat",
+      country: "India",
+      email: "dap@ced.svnit.ac.in"
+    },
+    {
+      srNo: 16,
+      name: "Manoj Kumar Majumder",
+      affiliation: "Indian Institute of Information Technology, Naya Raipur",
+      country: "India",
+      email: "manojk@iiitnr.edu.in"
+    },
+    {
+      srNo: 17,
+      name: "M. K. Shrimali",
+      affiliation: "Malaviya National Institute of Technology, Jaipur",
+      country: "India",
+      email: "mkshrimali@mnit.ac.in"
+    },
+    {
+      srNo: 18,
+      name: "Pinalkumar Engineer",
+      affiliation: "Sardar Vallabhbhai National Institute of Technology, Surat",
+      country: "India",
+      email: "pje@eced.svnit.ac.in"
+    },
+    {
+      srNo: 19,
+      name: "R. S. Jangid",
+      affiliation: "Indian Institute of Technology, Bombay",
+      country: "India",
+      email: "rsjangid@civil.iitb.ac.in"
+    },
+    {
+      srNo: 20,
+      name: "Sivavenkateswara Rao",
+      affiliation: "Indian Institute of Information Technology Surat",
+      country: "India",
+      email: "svrao@iiitsurat.ac.in"
+    },
+    {
+      srNo: 21,
+      name: "Uday Pratap",
+      affiliation: "Sardar Vallabhbhai National Institute of Technology, Surat",
+      country: "India",
+      email: "udaiprataprao@gmail.com"
+    },
+    {
+      srNo: 22,
+      name: "Ganesh Kale",
+      affiliation: "Sardar Vallabhbhai National Institute of Technology, Surat",
+      country: "India",
+      email: "gdk@ced.svnit.ac.in"
+    },
+    {
+      srNo: 23,
+      name: "Dilip Sharma",
+      affiliation: "Malaviya National Institute of Technology, Jaipur",
+      country: "India",
+      email: "dsharma.mech@mnit.ac.in"
+    },
+    {
+      srNo: 24,
+      name: "Sharnil Pandya",
+      affiliation: "Northumbria University",
+      country: "United Kingdom",
+      email: "sharnil.pandya@northumbria.ac.uk"
+    },
+    {
+      srNo: 25,
+      name: "Shilpa Githe",
+      affiliation: "Symbiosis Institute of Technology, Pune",
+      country: "India",
+      email: "shilpa.gite@sitpune.edu.in"
+    },
+    {
+      srNo: 26,
+      name: "Surajit Das",
+      affiliation: "National Institute of Technology, Agartala",
+      country: "India",
+      email: "surajit2006r@gmail.com"
+    },
+    {
+      srNo: 27,
+      name: "Dharmen Punjani",
+      affiliation: "Manager Consultant, Semantics Expert, Cencora PharmaLex GmbH",
+      country: "Germany",
+      email: "dharmen.punjani@gmail.com"
+    },
+    {
+      srNo: 28,
+      name: "Sachin Bakre",
+      affiliation: "Visvesvaraya National Institute of Technology Nagpur",
+      country: "India",
+      email: "svbakre@apm.vnit.ac.in"
     }
   ];
 
@@ -96,6 +226,9 @@ export default function TechnicalProgramCommittee() {
                   <th className="py-3 px-4 text-left font-semibold border-b border-gray-300">
                     Country
                   </th>
+                  <th className="py-3 px-6 text-left font-semibold border-b border-gray-300">
+                    Email
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -117,6 +250,11 @@ export default function TechnicalProgramCommittee() {
                     </td>
                     <td className="py-3 px-4 border-b border-gray-200 text-gray-600">
                       {member.country}
+                    </td>
+                    <td className="py-3 px-6 border-b border-gray-200 text-gray-600">
+                      <a href={`mailto:${member.email}`} className="text-blue-600 hover:text-blue-800 hover:underline">
+                        {member.email}
+                      </a>
                     </td>
                   </tr>
                 ))}
