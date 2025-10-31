@@ -13,6 +13,7 @@ import OrganizingCommittee from '../components/OrganizingCommittee';
 import SDG from '../components/SDG';
 import ContactUs from '../components/ContactUs';
 import ConferenceDescription from '../components/ConferenceDescription';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <AdvisoryCommittee />
       <SDG />
       <ContactUs />
+      <ScrollToTop />
     </>
   );
 }

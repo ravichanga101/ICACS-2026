@@ -8,6 +8,7 @@ export default function About() {
       logo: "/assets/img/cspit_logo.png",
       description: "Chandubhai S Patel Institute of Technology (CSPIT) is the first institute established in 2000 at CHARUSAT campus, offering UG and PG programs in engineering and technology.",
       gradient: "from-blue-500 to-blue-600",
+      url: "https://cspit.charusat.ac.in",
     },
     {
       name: "DEPSTAR",
@@ -15,6 +16,7 @@ export default function About() {
       logo: "/assets/img/depstar.png",
       description: "Devang Patel Institute of Advance Technology and Research (DEPSTAR) is a constituent of CHARUSAT focused on research and advanced technology programs.",
       gradient: "from-purple-500 to-purple-600",
+      url: "https://depstar.charusat.ac.in",
     },
   ];
 
@@ -71,17 +73,15 @@ export default function About() {
                     </div>
                   </div>
 
-                  <div className="text-center">
+                  <div className="text-left">
                     <a
                       href="https://charusat.ac.in"
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300"
+                      className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
+                      // inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300
                     >
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      Learn More About CHARUSAT
+                      Learn More ...
                     </a>
                   </div>
                 </div>
@@ -134,6 +134,17 @@ export default function About() {
                   <p className="text-gray-700 leading-relaxed text-justify">
                     {institute.description}
                   </p>
+                  <div className="text-left">
+                    <a
+                      href={institute.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
+                      // inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300
+                    >
+                      Learn More ...
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
