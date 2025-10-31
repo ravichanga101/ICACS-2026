@@ -32,6 +32,7 @@ export default function ConferenceDescription() {
       ),
       gradient: "from-green-500 to-green-600",
     },
+
     // {
     //   title: "Springer Publication",
     //   description: "All peer reviewed, accepted, and presented papers will be published with Springer in their prestigious book series.",
@@ -46,6 +47,7 @@ export default function ConferenceDescription() {
     //     url: "https://www.springer.com/series/15179",
     //   },
     // },
+
   ];
 
   return (
@@ -107,7 +109,7 @@ export default function ConferenceDescription() {
                     <p className="text-gray-700 leading-relaxed text-sm">
                       {highlight.description}
                     </p>
-                    {highlight.link && (
+                    {/* {highlight.link && (
                       <a
                         href={highlight.link.url}
                         target="_blank"
@@ -119,7 +121,7 @@ export default function ConferenceDescription() {
                         </svg>
                         {highlight.link.text}
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </div>
               ))}
