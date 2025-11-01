@@ -25,7 +25,7 @@ export default function About() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold text-gray-800 border-b-4 border-blue-600 inline-block pb-2">
-            About Host <span className="text-[#fd7e14]">Institutions</span>
+            About <span className="text-[#fd7e14]">Institution</span>
           </h2>
         </div>
 
