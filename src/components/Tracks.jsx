@@ -120,7 +120,7 @@ export default function Tracks() {
             Conference <span className="text-[#fd7e14]">Tracks</span>
           </h2>
           <p className="text-3xl font-bold text-gray-800 mt-4">
-            Theme: Artificial Intelligence (AI) & Robotics
+            Theme: Artificial Intelligence (AI)
           </p>
         </div>
         <div className="max-w-7xl mx-auto">
