@@ -119,6 +119,9 @@ export default function Tracks() {
           <h2 className="text-3xl font-bold text-gray-800 border-b-4 border-blue-600 inline-block pb-2">
             Conference <span className="text-[#fd7e14]">Tracks</span>
           </h2>
+          <p className="text-3xl font-bold text-gray-800 mt-4">
+            Theme: Artificial Intelligence (AI) & Robotics
+          </p>
         </div>
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
