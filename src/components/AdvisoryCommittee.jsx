@@ -50,11 +50,11 @@ export default function AdvisoryCommittee() {
       affiliation: "MNIT",
       country: "India"
     },
-    {
-      name: "Dr. Amit Ganatra",
-      affiliation: "Parul University",
-      country: "India"
-    },
+    // {
+    //   name: "Dr. Amit Ganatra",
+    //   affiliation: "Parul University",
+    //   country: "India"
+    // },
     {
       name: "Dr. Ankit Thakkar",
       affiliation: "Nirma University",
@@ -98,11 +98,11 @@ export default function AdvisoryCommittee() {
       affiliation: "Managing Director, Zeppelin System India Pvt. Ltd., Vadodara",
       country: "Gujarat"
     },
-    {
-      name: "Dr. Venkat Ramani",
-      affiliation: "Proprietor, Plasma & Vacuum Technologies, Ahmedabad",
-      country: "Gujarat"
-    },
+    // {
+    //   name: "Dr. Venkat Ramani",
+    //   affiliation: "Proprietor, Plasma & Vacuum Technologies, Ahmedabad",
+    //   country: "Gujarat"
+    // },
     {
       name: "Mr. Ajit Radhakrishnan",
       affiliation: "Regional Head – Technical Services, UltraTech Cement Ltd, Vadodara",
